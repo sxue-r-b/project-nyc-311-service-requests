@@ -1,8 +1,8 @@
 # NYC 311 Service Requests Ingestion & EDA 
 
-## Project Deescription
+## Project Description
 
-This project ingests NYC 311 Service Requests data from the [NYC Open Data](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9/about_data) website. Service requests submitted from January 2020 through July 19, 2025 were collected and stored in monthly Parquet files (cached data files are not pushed to the repo).
+This project ingests NYC 311 Service Requests data from the [NYC Open Data](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9/about_data) website. Service requests submitted from January 2020 through July 19, 2025 were collected and stored in monthly Parquet files (note: cached data files were not pushed to the repo).
 
 Following ingestion, an exploratory data analysis was conducted to uncover trends, including complaint seasonality, resolution times, and compliant volume across boroughs, time of day, and days of the week. 
 
@@ -21,7 +21,7 @@ Following ingestion, an exploratory data analysis was conducted to uncover trend
 - `requirements.txt` - Packages needed for the project
 
 
-## Setup Instruction
+## Setup Instructions
 
 1. Clone this repo by running `git clone https://github.com/sxue-r-b/project-nyc-311-service-requests.git` in the terminal.
 
