@@ -4,7 +4,7 @@
 
 This project ingests NYC 311 Service Requests data from the [NYC Open Data](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9/about_data) website. Service requests submitted from January 2020 through July 19, 2025 were collected and stored in monthly Parquet files (note: cached data files were not pushed to the repo).
 
-Following ingestion, an exploratory data analysis was conducted to uncover trends, including complaint seasonality, resolution times, and compliant volume across boroughs, time of day, and days of the week. 
+Following ingestion, an exploratory data analysis was conducted to uncover trends, including complaint seasonality, resolution times, and complaint volume across boroughs, time of day, and days of the week. 
 
 
 ## Project Content
@@ -16,7 +16,7 @@ Following ingestion, an exploratory data analysis was conducted to uncover trend
 
 - `02_eda.ipynb` - EDA notebook
 
-- `README.md` - Project instruction
+- `README.md` - Project instructions
 
 - `requirements.txt` - Packages needed for the project
 
